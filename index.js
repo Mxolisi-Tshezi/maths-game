@@ -3,7 +3,6 @@
 // console.log(mult(10,5)
 
 import express from 'express';
-
 const app = express();
 
 const PORT = process.env.PORT || 1967;
