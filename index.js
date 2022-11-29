@@ -7,7 +7,11 @@ const app = express();
 
 const PORT = process.env.PORT || 1967;
 
-app.get('/', (req, res) => res.send('Maths game!'));
+// app.get('/', (req, res) => res.send('Maths game!'));
+
+app.get('/', function (req, res) {
+    res.send('index')
+ })
 
 app.listen(PORT, function () {
     console.log('App starting on port', PORT);
