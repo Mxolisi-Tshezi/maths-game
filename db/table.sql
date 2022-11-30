@@ -4,3 +4,8 @@ create table user_app (
 	current_score int not null
 );
 
+-- insert into user_app (ursename) values ('Mbali');
+-- insert into user_app (ursename) values ('Mxo');
+-- insert into user_app (ursename) values ('Sya');
+-- insert into user_app (ursename) values ('Walter');
+-- insert into user_app (ursename) values ('Khanya');
