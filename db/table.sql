@@ -1,9 +1,8 @@
 create table user_app (
 	id serial not null primary key,
-	ursename text not null
-	current_score int not null,
-	-- entry_id  int not null,
-	-- foreign key (entry_id) references Entry(id)
+	ursename text not null,
+	current_score int not null
+
 );
 
 -- create table GameResult (
@@ -31,8 +30,16 @@ create table user_app (
 
 
 
--- insert into user_app (ursename) values ('Mbali');
+insert into user_app (ursename,current_score) values ('Mbali','40');
+insert into user_app (ursename,current_score) values ('Mxo','30');
+insert into user_app (ursename,current_score) values ('Walter','50');
+
+-- insert into user_app (ursename) values ('Khanya');
+
+
+
 -- insert into user_app (ursename) values ('Mxo');
 -- insert into user_app (ursename) values ('Sya');
 -- insert into user_app (ursename) values ('Walter');
 -- insert into user_app (ursename) values ('Khanya');
+-- insert into client(first_name,last_name,phone_number) values('Mxolisi','Tshezi','0763112245');

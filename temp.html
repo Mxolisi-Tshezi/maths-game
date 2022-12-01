@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -71,40 +71,75 @@
 
             const oneData = prediction[0];
             const twoData = prediction[1];
-            const threeData = prediction[8];
+            const threeData = prediction[2];
+            // const fourData = prediction[3];
+            // const fiveData = prediction[4];
+            // const sixData = prediction[5];
+            // const sevenData = prediction[6];
+            // const eightData = prediction[7];
+            // const NineData = prediction[8];
+            // const zeroData = prediction[9];
+
             if (oneData.probability > 0.95) {
-                //// console.log("Thtas 1")
-                // console.log(oneData)
-                one_count=1
+                one_count=1;
                 oneElement.innerText = one_count;
 
             }
             if (twoData.probability > 0.95) {
-                // console.log("Thtas 2")
                 two_count=2;
                 twoElement.innerText = two_count;
-
-                //console.log(twoData)
             }
             if (threeData.probability > 0.95) {
-                // console.log("Thtas 2")
                 three_count=3;
                 threeElement.innerText = three_count;
-                //console.log(twoData)
             }
+            // if (fourData.probability > 0.95) {
+            //     four_count=4;
+            //     fourElement.innerText = four_count;
 
-        //     for (let i = 0; i < maxPredictions; i++) {
-        //     const classPrediction = prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-        //     labelContainer.childNodes[i].innerHTML = classPrediction;
-        // }
+            // }
+            // if (fiveData.probability > 0.95) {
+            //     two_count=5;
+            //     // twoElement.innerText = two_count;
+            //     // countElement.innerText = count;
+            // }
+            // if (sixData.probability > 0.95) {
+            //     count=6;
+            //     countElement.innerText = count;
+
+            // }
+            // if (sevenData.probability > 0.95) {
+            //     count=7;
+            //     countElement.innerText = count;
+
+            // }
+            // if (eightData.probability > 0.95) {
+            //     count=8;
+            //     countElement.innerText = count;
+
+            // }
+            // if (zeroData.probability > 0.95) {
+            //     count=0;
+            //     countElement.innerText = count;
+
+            // }
+
+
+
+
+            // for (let i = 0; i < maxPredictions; i++) {
+            ////    const classPrediction =
+            //       prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+            //  labelContainer.childNodes[i].innerHTML = classPrediction;
+            // }
         }
     </script>
 
     <div class="operators" style="background-color: #0066ff; width:12em; height: 7em ;padding: 1em">
 
-        <div>First Number :<span class="one_count"> 0</span></div>
-<br>
-<br>
+        <div>First Operand :<span class="one_count"> 0</span></div>
+        <br>
+
         <select name="areas" id="">
             <option value="">Choose a sign</option>
             <option value="+" >+</option>
@@ -112,18 +147,16 @@
             <option value="X">X</option>
             <option value="/">/</option>
         </select>
-            <br>
-            <br>
-        <div>Second Number: <span class="two_count"> 0</span></div>
         <br>
         <br>
+            
+        <div>Second Operand: <span class="two_count"> 0</span></div>
 
-        <div>third Number: <span class="three_count"> 0</span></div>
-
+        <div>Third Operand: <span class="three_count"> 0</span></div>
 
 
 
     </div>
 </body>
 
-</html>
+</html> -->
