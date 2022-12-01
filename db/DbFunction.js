@@ -14,8 +14,6 @@ const DbFunction = (db) =>{
   return await db.manyOrNone('SELECT  current_score FROM  user_app')
   
 }  
-
-
 const clearUsers = async () => {   
  await db.none('Delete FROM user_app')
 }
@@ -27,8 +25,6 @@ const clearUsers = async () => {
    getHighscore,
    getcurrentScore,
    clearUsers
-
-
 }
 }
 module.exports = DbFunction

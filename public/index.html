@@ -71,27 +71,52 @@
 
             const oneData = prediction[0];
             const twoData = prediction[1];
-            const threeData = prediction[0];
-            const fourData = prediction[1];
-            const fiveData = prediction[0];
-            const sixData = prediction[1];
-            const sevenData = prediction[0];
-            const eightData = prediction[1];
-            const NineData = prediction[0];
-            const zeroData = prediction[1];
+            const threeData = prediction[2];
+            const fourData = prediction[3];
+            const fiveData = prediction[4];
+            const sixData = prediction[5];
+            const sevenData = prediction[6];
+            const eightData = prediction[7];
+            const NineData = prediction[8];
+            const zeroData = prediction[9];
+
             if (oneData.probability > 0.95) {
-                //// console.log("Thtas 1")
-                // console.log(oneData)
-                one_count=1
+                count=1
                 oneElement.innerText = one_count;
 
             }
             if (twoData.probability > 0.95) {
-                // console.log("Thtas 2")
+                two_count=2;
+                twoElement.innerText = two_count;
+            }
+            if (threeData.probability > 0.95) {
+                two_count=3;
+                twoElement.innerText = two_count;
+            }
+            if (fourData.probability > 0.95) {
                 two_count=2;
                 twoElement.innerText = two_count;
 
-                //console.log(twoData)
+            }
+            if (fourData.probability > 0.95) {
+                two_count=2;
+                twoElement.innerText = two_count;
+
+            }
+            if (sevenData.probability > 0.95) {
+                two_count=7;
+                twoElement.innerText = two_count;
+
+            }
+            if (eightData.probability > 0.95) {
+                two_count=7;
+                twoElement.innerText = two_count;
+
+            }
+            if (NineData.probability > 0.95) {
+                two_count=7;
+                twoElement.innerText = two_count;
+
             }
 
 
