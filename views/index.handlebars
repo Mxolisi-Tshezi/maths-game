@@ -13,9 +13,8 @@
 <body>
     <div class="main">
         <!-- <div>choose a Number :<p id="thesum"> 0</p></div><br> -->
-        <div style="margin-left: 40em;">MATH GAME</div>
-        <button style="margin-left: 40em; " class="startButton" type="button" onclick="init()">Start</button>
-        <div style="margin-left: 40em;" id="webcam-container"></div>
+        <div style="margin-left: 37em;">MATH GAME</div><br>
+        <div style="margin-left: 35em;"id="webcam-container"></div>
         <div id="label-container"></div>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js">
@@ -191,24 +190,22 @@
             }
             let current_score;
         </script>
-        <div style="margin-left: 40em;  width:30em; height: 30em ;padding: 1em ">
-            <div>choose a Number :<span class="one_count"> 0</span></div><br><br>
-            <br>
+        <div class= "answers"><br>
+            <div >Show the card for the Number :<span class="one_count"> 0</span></div><br>
             <!-- <div>Second Number: <span class="two_count"> 0</span></div> -->
-            <button style="" type="button" onclick="getInputValue1();">Save First
+            <button class="capture" type="button" onclick="getInputValue1();">Capture First
                 Number</button><br><br>
-            <button type="button" onclick="getInputValue2();">Save Second Number</button><br>
-            <br>
+            <button class="capture" type="button" onclick="getInputValue2();">Capture Second Number</button><br>
             <div class="operators">
                 <button type="button" onclick="getInputValueSum();">+</button>
                 <button type="button" onclick="getInputValuesubtract();">-</button>
                 <button type="button" onclick="getInputValueMultiply();">X</button>
                 <button type="button" onclick="getInputValueDivide();">/</button>
-            </div>
+            </div><br>
 
             <div>Correct answer is :<p id="thesum"> </p>
             </div><br>
-            <div>You have 3 Second to give the Answer<br>
+            <div>Please answer 3 Seconds<br>
             </div><br>
             <progress value="0" max="10" id="progressBar"></progress>
 
@@ -216,7 +213,8 @@
             document.getElementById("thesum").innerHTML = "";
         </script> -->
             <!-- <div>third Number: <span class="three_count"> 0</span></div> -->
-        </div>
+        </div><br>
+        <button style="margin-left: 35em;;" class="startButton" type="button" onclick="init()">Start</button><br>
 
     </div>
 
