@@ -1,9 +1,10 @@
 let one_count="";
 let thesum="";
-
 let oneElement=document.querySelector('.one_count');
 oneElement.innerText=one_count;
 
+// let oneElement=document.querySelector('.one_count');
+// oneElement.innerText=one_count;
 const operators=document.querySelector('.operators');
 // var addBtn = document.querySelector(".operand");
 
