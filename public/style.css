@@ -67,7 +67,12 @@ display: flex;
 }
 
 ---------------------
+<<<<<<< HEAD
+
+/*.operator button{
+=======
 .operator button{
+>>>>>>> df40bc067919bb35cb62e8998d044cfd8ea268c8
 padding: 0.75em;
 background-color: blue;
 color: black;
@@ -77,14 +82,19 @@ border-radius: 0.25em;
     margin: 20px 0;
     width: 10%;
     border: 0;
-   /* border: black;*/
-  /*  align-items: center;
+    border: black;
+   align-items: center;
     text-align: center;
-    justify-content: center;*/
+    justify-content: center;
 
  }
 .operator button:hover{
 cursor: pointer;
 background-color: blue;
+<<<<<<< HEAD
+ }
+*/
+=======
 }
 
+>>>>>>> df40bc067919bb35cb62e8998d044cfd8ea268c8
