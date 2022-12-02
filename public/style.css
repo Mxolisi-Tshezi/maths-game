@@ -67,6 +67,7 @@ display: flex;
 }
 
 ---------------------
+
 /*.operator button{
 padding: 0.75em;
 background-color: blue;
@@ -77,14 +78,14 @@ border-radius: 0.25em;
     margin: 20px 0;
     width: 10%;
     border: 0;
-   /* border: black;*/
-  /*  align-items: center;
+    border: black;
+   align-items: center;
     text-align: center;
-    justify-content: center;*/
+    justify-content: center;
 
  }
 .operator button:hover{
 cursor: pointer;
 background-color: blue;
- }*/
-
+ }
+*/
