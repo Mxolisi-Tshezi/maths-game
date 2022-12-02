@@ -10,17 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <div class="main">
-<<<<<<< HEAD
-    <div>choose a Number :<span id="thesum"> 0</span></div><br>
-    <h1>MATH GAME</h1>
-=======
     <!-- <div>choose a Number :<p id="thesum"> 0</p></div><br> -->
     <div style="margin-left: 40em;">MATH GAME</div>
->>>>>>> dcc21824a7a435da34e0a5b766fc92f744822b02
     <button class="startButton" type="button" onclick="init()">Start</button>
     <div style="margin-left: 40em;" id="webcam-container"></div>
     <div id="label-container"></div>
@@ -35,8 +29,6 @@
         const URL = "https://teachablemachine.withgoogle.com/models/G_goeuf4Z/";
 
         let model, webcam, labelContainer, maxPredictions, value1, save1, save2;
-
-
         // Load the image model and setup the webcam
         async function init() {
             const modelURL = URL + "model.json";
@@ -161,6 +153,7 @@
             // document.write(thesum);
             document.getElementById("thesum").innerHTML = thesum;
         }
+        let current_score;
     </script>
     <div class="operators" style="background-color: #0066ff; width:12em; height: 7em ;padding: 1em">
         <div>choose a Number :<span class="one_count"> 0</span></div><br><br>
@@ -169,16 +162,6 @@
         <button style="background-color: #0066ff;" type="button" onclick="getInputValue1();">Save First Number</button><br><br>
         <button type="button" onclick="getInputValue2();">Save Second Number</button><br>
         <br>
-<<<<<<< HEAD
-        <div class="operator">
-        <button type="button" onclick="getInputValueSum();">+</button>
-        <button type="button" onclick="getInputValuesubtract();">-</button>
-        <button type="button" onclick="getInputValueMultiply();">X</button>
-        <button type="button" onclick="getInputValueDivide();">/</button>
-        </div>
-           
-        
-=======
         <button type="button" onclick="getInputValueSum();">+</button><br><br>
         <button type="button" onclick="getInputValuesubtract();">-</button><br><br>
         <button type="button" onclick="getInputValueMultiply();">X</button><br><br>
@@ -186,7 +169,6 @@
         <br>
         <br>
         <div>choose a Number :<p id="thesum"> 0</p></div><br>
->>>>>>> dcc21824a7a435da34e0a5b766fc92f744822b02
         <!-- <script>
             document.getElementById("thesum").innerHTML = "";
         </script> -->
