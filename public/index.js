@@ -5,10 +5,10 @@ let oneElement=document.querySelector('.one_count');
 oneElement.innerText=one_count;
 
 const operators=document.querySelector('.operators');
-var addBtn = document.querySelector(".operand");
+// var addBtn = document.querySelector(".operand");
 
-let thesumElement=document.querySelector('.thesum');
-thesumElement.innerText = thesum;
+// let thesumElement=document.querySelector('.thesum');
+// thesumElement.innerText = thesum;
 
 
 
