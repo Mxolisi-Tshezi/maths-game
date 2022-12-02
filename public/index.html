@@ -17,7 +17,7 @@
 
 <div class="main">
     <div>choose a Number :<span id="thesum"> 0</span></div><br>
-    <div >MATH GAME</div>
+    <h1>MATH GAME</h1>
     <button class="startButton" type="button" onclick="init()">Start</button>
     <div style="margin-left: 50em;" id="webcam-container"></div>
     <div id="label-container"></div>
@@ -180,12 +180,14 @@
 
         <button type="button" onclick="getInputValue2();">Save Second Number</button><br>
         <br>
-        <button type="button" onclick="getInputValueSum();">+</button><br><br>
-        <button type="button" onclick="getInputValuesubtract();">-</button><br><br>
-        <button type="button" onclick="getInputValueMultiply();">X</button><br><br>
-        <button type="button" onclick="getInputValueDivide();">/</button>     
-        <br>
-        <br>
+        <div class="operator">
+        <button type="button" onclick="getInputValueSum();">+</button>
+        <button type="button" onclick="getInputValuesubtract();">-</button>
+        <button type="button" onclick="getInputValueMultiply();">X</button>
+        <button type="button" onclick="getInputValueDivide();">/</button>
+        </div>
+           
+        
         <!-- <script>
             document.getElementById("thesum").innerHTML = "";
         </script> -->
