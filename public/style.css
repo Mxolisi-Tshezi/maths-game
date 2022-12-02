@@ -10,8 +10,14 @@ height: 15em;
 background-color: brown;
 }
 
-main{
+.main{
     /* margin-left: 10em; */
-    margin-right: 20em;
+    margin-right: 60em;
 
 }
+
+/* .webcam-container{
+
+    margin-right: 60em;
+
+} */
