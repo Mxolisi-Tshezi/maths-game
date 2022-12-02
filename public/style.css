@@ -67,12 +67,8 @@ display: flex;
 }
 
 ---------------------
-<<<<<<< HEAD
 
 /*.operator button{
-=======
-.operator button{
->>>>>>> df40bc067919bb35cb62e8998d044cfd8ea268c8
 padding: 0.75em;
 background-color: blue;
 color: black;
@@ -91,10 +87,5 @@ border-radius: 0.25em;
 .operator button:hover{
 cursor: pointer;
 background-color: blue;
-<<<<<<< HEAD
  }
 */
-=======
-}
-
->>>>>>> df40bc067919bb35cb62e8998d044cfd8ea268c8
